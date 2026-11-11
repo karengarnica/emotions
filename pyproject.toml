@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emotions"
+version = "0.1.0"
+description = "Nuestras Emociones 2.0 — análisis de la expresión emocional en niños y niñas de preescolar"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Karen Garnica Torres", email = "karen.garnica.211@secundinamarca.edu.co" },
+]
+keywords = ["educación emocional", "preescolar", "PLN", "literatura infantil", "inteligencia artificial"]
+dependencies = [
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+# Lematización y etiquetado gramatical (recomendado). Luego:
+#   python -m spacy download es_core_news_sm
+nlp = ["spacy>=3.7"]
+# Réplica completa del cuaderno de Colab (tópicos, UMAP, nubes de palabras)
+notebook = [
+  "jupyter",
+  "matplotlib",
+  "nltk",
+  "wordcloud",
+  "bertopic",
+  "sentence-transformers",
+  "umap-learn[plot]",
+]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+emotions = "emotions.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

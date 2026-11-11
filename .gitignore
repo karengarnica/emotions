@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+temp/
+
+# --- Proyecto Emociones ---
+# Material original: contiene nombres, dibujos y voces de menores de edad.
+# NUNCA se versiona. Solo se publican agregados anónimos (data/processed, docs/data).
+data/raw/
+data/interim/
+*.mp4
+*.ppsx
+~$*
+
+# IDE
+.idea/
+.vscode/
+
+# Configuración local de Claude Code
+.claude/

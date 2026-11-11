@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Si usas este material, por favor cítalo así."
+title: "Nuestras Emociones 2.0: expresamos con arte y tecnología"
+type: software
+authors:
+  - family-names: "Garnica Torres"
+    given-names: "Karen"
+    email: "karen.garnica.211@secundinamarca.edu.co"
+repository-code: "https://github.com/karengarnica/emotions"
+url: "https://karengarnica.github.io/emotions/"
+license: MIT
+keywords:
+  - educación emocional
+  - educación preescolar
+  - literatura infantil
+  - procesamiento de lenguaje natural
+  - inteligencia artificial
