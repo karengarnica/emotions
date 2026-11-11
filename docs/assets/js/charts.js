@@ -2,9 +2,9 @@
    Cada función recibe el contenedor y los datos de docs/data/resultados.json. */
 
 const EXTRA = {
-  bien: { name: "“Bien” (genérico)", color: "#B9B2A3" },
-  otro: { name: "Otra respuesta", color: "#D9D3C5" },
-  sin_respuesta: { name: "Sin respuesta", color: "#EFEAE0" },
+  bien: { name: "“Bien” (genérico)", color: "#A9B1C6" },
+  otro: { name: "Otra respuesta", color: "#CDD3E2" },
+  sin_respuesta: { name: "Sin respuesta", color: "#E9EDF6" },
 };
 const category = (key) => Emotions[key] || EXTRA[key];
 
@@ -82,7 +82,7 @@ function drawFeelings(container, sessions) {
 
 function drawLegend(container, keys) {
   container.innerHTML = keys.map((k) =>
-    `<span class="legend__item"><span class="legend__swatch" style="background:${category(k).color};${k === "sin_respuesta" ? "border:1px solid #cfc8b8" : ""}"></span>${category(k).name}</span>`
+    `<span class="legend__item"><span class="legend__swatch" style="background:${category(k).color};${k === "sin_respuesta" ? "border:1px solid #B9C2D8" : ""}"></span>${category(k).name}</span>`
   ).join("");
 }
 
@@ -178,7 +178,7 @@ function drawSunburst(container, definiciones, onFocus) {
     .text((d) => (d.data.name.length > 13 ? `${d.data.name.slice(0, 12)}…` : d.data.name));
 
   const center = svg.append("g").style("cursor", "pointer").on("click", () => zoom(focus.parent || root));
-  center.append("circle").attr("r", radius - 4).attr("fill", "#FFF9EF").attr("stroke", INK).attr("stroke-width", 2.5);
+  center.append("circle").attr("r", radius - 4).attr("fill", "#FFFFFF").attr("stroke", INK).attr("stroke-width", 2.5);
   const centerTitle = center.append("text").attr("text-anchor", "middle").attr("dy", "-0.1em")
     .attr("font-size", 15).attr("font-weight", 800).style("font-family", "var(--display)");
   const centerHint = center.append("text").attr("text-anchor", "middle").attr("dy", "1.5em")
@@ -261,7 +261,7 @@ function drawNoSe(container, definiciones) {
     .attr("font-weight", 700).attr("font-size", 14).text((d) => Emotions[d.emotion].name);
   row.append("line")
     .attr("x1", (d) => x(d3.min(d.values, (v) => v.pct))).attr("x2", (d) => x(d3.max(d.values, (v) => v.pct)))
-    .attr("stroke", "#CFC8B8").attr("stroke-width", 3).attr("stroke-linecap", "round");
+    .attr("stroke", "#B9C2D8").attr("stroke-width", 3).attr("stroke-linecap", "round");
   row.selectAll("circle").data((d) => d.values).join("circle")
     .attr("cx", (v) => x(v.pct)).attr("r", 9).attr("fill", (v) => v.color).attr("stroke", "#fff").attr("stroke-width", 2)
     .on("pointermove", (event, v) => tooltip.show(event, `<b>${v.name}</b><br>${v.info.sin_respuesta} de ${v.info.n} respuestas fueron “no sé” (${v.pct} %)`))
@@ -304,7 +304,7 @@ function drawSituations(container, data) {
 
   const row = svg.append("g").selectAll("g").data(data.situaciones).join("g")
     .attr("transform", (d, i) => `translate(0,${m.top + i * rowH + rowH / 2})`);
-  row.append("line").attr("x1", m.left - 6).attr("x2", width - m.right).attr("stroke", "#ECDFC6");
+  row.append("line").attr("x1", m.left - 6).attr("x2", width - m.right).attr("stroke", "#DCE4F5");
   row.append("text").attr("x", 0).attr("font-size", 13.5)
     .each(function (situation) {
       const lines = wrapWords(situation, Math.floor(labelW / 7.2));
@@ -318,7 +318,7 @@ function drawSituations(container, data) {
 
   cell.filter((d) => d.n > 0).append("circle").attr("r", (d) => r(d.n))
     .attr("fill", (d) => category(d.key).color)
-    .attr("stroke", (d) => (d.key === "sin_respuesta" ? "#CFC8B8" : "none"))
+    .attr("stroke", (d) => (d.key === "sin_respuesta" ? "#B9C2D8" : "none"))
     .on("pointermove", (event, d) => tooltip.show(event, `<b>${d.situation}</b><br>${category(d.key).name}: ${d.n} de ${d.total} niños`))
     .on("pointerleave", () => tooltip.hide());
   cell.filter((d) => r(d.n) >= 10).append("text").attr("text-anchor", "middle").attr("dy", "0.35em")
