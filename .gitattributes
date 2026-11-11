@@ -1,0 +1,5 @@
+# Finales de línea LF en todos los sistemas (Windows, WSL, Linux, macOS).
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+*.ipynb text eol=lf

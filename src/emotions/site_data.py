@@ -60,7 +60,10 @@ def write(paths: Paths) -> list:
     paths.processed.mkdir(parents=True, exist_ok=True)
 
     site_json = paths.site_data / "resultados.json"
-    site_json.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # newline="\n": el mismo archivo en Windows y Linux, sin diferencias falsas en git.
+    site_json.write_text(
+        json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n"
+    )
 
     words = pd.DataFrame(
         [
