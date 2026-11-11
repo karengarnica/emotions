@@ -1,0 +1,2799 @@
+{
+ "generado": "2026-11-10",
+ "lematizado": true,
+ "emociones": [
+  {
+   "clave": "alegria",
+   "nombre": "Alegría",
+   "color": "#F5B700"
+  },
+  {
+   "clave": "tristeza",
+   "nombre": "Tristeza",
+   "color": "#3B82C4"
+  },
+  {
+   "clave": "enojo",
+   "nombre": "Enojo",
+   "color": "#E5484D"
+  },
+  {
+   "clave": "miedo",
+   "nombre": "Miedo",
+   "color": "#7C5CBF"
+  },
+  {
+   "clave": "calma",
+   "nombre": "Calma",
+   "color": "#2FA36B"
+  },
+  {
+   "clave": "sorpresa",
+   "nombre": "Sorpresa",
+   "color": "#F2811D"
+  },
+  {
+   "clave": "carino",
+   "nombre": "Cariño",
+   "color": "#E36BA8"
+  },
+  {
+   "clave": "asco",
+   "nombre": "Asco",
+   "color": "#8A9A2B"
+  }
+ ],
+ "categorias_extra": {
+  "bien": "Genérico (\"Bien\")",
+  "sin_respuesta": "Sin respuesta",
+  "otro": "Otra respuesta"
+ },
+ "definiciones": [
+  {
+   "clave": "2024_antes",
+   "nombre": "2024 · Antes de los talleres",
+   "total": {
+    "n": 97,
+    "sin_respuesta": 11,
+    "pct_sin_respuesta": 11.3,
+    "palabras_promedio": 7.51
+   },
+   "emociones": {
+    "alegria": {
+     "n": 25,
+     "sin_respuesta": 2,
+     "pct_sin_respuesta": 8.0,
+     "palabras_promedio": 6.13,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "jugar",
+       "n": 4,
+       "pos": "VERB"
+      },
+      {
+       "w": "colegio",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gustar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "papá",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "profesora",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "familia",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermana",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermano",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "juguete",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "querer",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "almorzar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "amigo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "aparecer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "aseo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "ayudar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "bebé",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "colorear",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comunicar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "dulce",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "enseñar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "escuela",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "estudiar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "llevar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "muñeca",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "parque",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "patineta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pintar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "piscina",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prestar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "venir",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "tristeza": {
+     "n": 24,
+     "sin_respuesta": 2,
+     "pct_sin_respuesta": 8.3,
+     "palabras_promedio": 7.41,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 7,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 6,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hacer",
+       "n": 5,
+       "pos": "VERB"
+      },
+      {
+       "w": "pegar",
+       "n": 5,
+       "pos": "VERB"
+      },
+      {
+       "w": "comprar",
+       "n": 4,
+       "pos": "VERB"
+      },
+      {
+       "w": "hermana",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "amigo",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "caso",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "correa",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "jugar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "querer",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "regañar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "abandonado",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "calle",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "cama",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "cansado",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "chancla",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "clase",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "compartir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "consentir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "dejar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "doler",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "dulce",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "embarazado",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "falta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "juguete",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "león",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "morder",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "ojo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pelear",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "quedar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "quieto",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "solo",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "tarea",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tender",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "travesura",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "vagabundo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "zapato",
+       "n": 1,
+       "pos": "NOUN"
+      }
+     ]
+    },
+    "enojo": {
+     "n": 24,
+     "sin_respuesta": 4,
+     "pct_sin_respuesta": 16.7,
+     "palabras_promedio": 9.4,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 6,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gustar",
+       "n": 4,
+       "pos": "VERB"
+      },
+      {
+       "w": "hacer",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "jugar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "papá",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pegar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "querer",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "bravo",
+       "n": 2,
+       "pos": "ADJ"
+      },
+      {
+       "w": "casa",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "dejar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "dulce",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermana",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "portar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "sol",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "alzar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "calor",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "calzoncillo",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comida",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gasto",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hermano",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "juguete",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "mal",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "mandar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "molestar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "nombre",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "olvidar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "padrastro",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pantalón",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papel",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pelear",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "perfumar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "perrito",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "quemar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "quitar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "regañar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "solo",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "tarea",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tomar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "ver",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "miedo": {
+     "n": 24,
+     "sin_respuesta": 3,
+     "pct_sin_respuesta": 12.5,
+     "palabras_promedio": 7.33,
+     "palabras": [
+      {
+       "w": "oscuridad",
+       "n": 6,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comer",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "llorona",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "película",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "terror",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "araña",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bruja",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "casa",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "mamá",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "noche",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "payaso",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "solo",
+       "n": 2,
+       "pos": "ADJ"
+      },
+      {
+       "w": "soñar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "acercar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "aparecer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "bailar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "cerrar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comprar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "cucarrón",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "decir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "desconocido",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "dinosaurio",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dormir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "fantasma",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "grande",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "halar",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "hermano",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "humano",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "olvidar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "pan",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pie",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "puerta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "rezar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "tiburón",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "ver",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "clave": "2024_despues",
+   "nombre": "2024 · Después de los talleres",
+   "total": {
+    "n": 179,
+    "sin_respuesta": 0,
+    "pct_sin_respuesta": 0.0,
+    "palabras_promedio": 5.69
+   },
+   "emociones": {
+    "alegria": {
+     "n": 40,
+     "sin_respuesta": 0,
+     "pct_sin_respuesta": 0.0,
+     "palabras_promedio": 5.42,
+     "palabras": [
+      {
+       "w": "hacer",
+       "n": 8,
+       "pos": "VERB"
+      },
+      {
+       "w": "jugar",
+       "n": 5,
+       "pos": "VERB"
+      },
+      {
+       "w": "mamá",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 4,
+       "pos": "VERB"
+      },
+      {
+       "w": "amigo",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermano",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "parque",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "carro",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "colegio",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "helado",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "montar",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pastel",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "querer",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "abrazar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "abrir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "cometa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "cumpleaños",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dejar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "dibujar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "familia",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gatito",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "moto",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "muñeca",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "paseo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "patín",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pintar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "piscina",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "playa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prima",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "regalo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "reír",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "transformer",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "venir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "vuelo",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "tristeza": {
+     "n": 37,
+     "sin_respuesta": 0,
+     "pct_sin_respuesta": 0.0,
+     "palabras_promedio": 6.57,
+     "palabras": [
+      {
+       "w": "jugar",
+       "n": 11,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 10,
+       "pos": "VERB"
+      },
+      {
+       "w": "dejar",
+       "n": 6,
+       "pos": "VERB"
+      },
+      {
+       "w": "mamá",
+       "n": 6,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pelear",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "ver",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "amigo",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "juguete",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "parque",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "regañar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "solo",
+       "n": 2,
+       "pos": "ADJ"
+      },
+      {
+       "w": "televisión",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "casa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "celular",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dibujar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "estudiar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "helado",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermana",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hermano",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "lado",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "llorar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "mirar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "muñeca",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "paseo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pegar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "plata",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prestar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "querer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "venir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "vivir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "volver",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "enojo": {
+     "n": 44,
+     "sin_respuesta": 0,
+     "pct_sin_respuesta": 0.0,
+     "palabras_promedio": 6.93,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 12,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dejar",
+       "n": 11,
+       "pos": "VERB"
+      },
+      {
+       "w": "jugar",
+       "n": 10,
+       "pos": "VERB"
+      },
+      {
+       "w": "papá",
+       "n": 7,
+       "pos": "NOUN"
+      },
+      {
+       "w": "regañar",
+       "n": 5,
+       "pos": "VERB"
+      },
+      {
+       "w": "juguete",
+       "n": 4,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pegar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "pelear",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "bicicleta",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "compañero",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "hablar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "hermano",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "llevar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "cabeza",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "cachetada",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "clase",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "escuchar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "estómago",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "explotar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "fuego",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "fuerte",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "gana",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gato",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gritar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "helado",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "lastimar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "montar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "parque",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "paseo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pataleta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "piso",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "plata",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prestar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "querer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "reir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "rompar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "romper",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "miedo": {
+     "n": 44,
+     "sin_respuesta": 0,
+     "pct_sin_respuesta": 0.0,
+     "palabras_promedio": 4.52,
+     "palabras": [
+      {
+       "w": "ver",
+       "n": 20,
+       "pos": "VERB"
+      },
+      {
+       "w": "araña",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bruja",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "serpiente",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "altura",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bicho",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gato",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "momia",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "oscuridad",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "perro",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "ratón",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "salir",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "solo",
+       "n": 2,
+       "pos": "ADJ"
+      },
+      {
+       "w": "zombi",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bravo",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "casa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "corazón",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "correr",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "culebra",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "fantasma",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hechizo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "latir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "maléfica",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pelo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "película",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "punta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "rasguñar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "rápido",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "sorpresa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "temblar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "tenebroso",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "terror",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "venenoso",
+       "n": 1,
+       "pos": "ADJ"
+      }
+     ]
+    },
+    "calma": {
+     "n": 14,
+     "sin_respuesta": 0,
+     "pct_sin_respuesta": 0.0,
+     "palabras_promedio": 3.86,
+     "palabras": [
+      {
+       "w": "hacer",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "hermana",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "mamá",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "montar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "abrazo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "beso",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bicicleta",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "corazón",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dibujar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "escuela",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gato",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "jugar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "juguete",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "masaje",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "meditación",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "patín",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "respirar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "sentar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "solo",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "televisión",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "ver",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "clave": "2025_inicio",
+   "nombre": "2025 · Inicio de Emociones 2.0",
+   "total": {
+    "n": 108,
+    "sin_respuesta": 17,
+    "pct_sin_respuesta": 15.7,
+    "palabras_promedio": 5.23
+   },
+   "emociones": {
+    "alegria": {
+     "n": 27,
+     "sin_respuesta": 6,
+     "pct_sin_respuesta": 22.2,
+     "palabras_promedio": 5.29,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "bicicleta",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "llevar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "papá",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "parque",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "colegio",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "helado",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "jugar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "regalo",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "amiga",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "ayudar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "bolita",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "carita",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "casa",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "compra",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "cumpleaños",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "día",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "entregar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "regalar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "sacar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "tarea",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tierra",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tractor",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "venir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "volqueta",
+       "n": 1,
+       "pos": "NOUN"
+      }
+     ]
+    },
+    "tristeza": {
+     "n": 27,
+     "sin_respuesta": 5,
+     "pct_sin_respuesta": 18.5,
+     "palabras_promedio": 5.55,
+     "palabras": [
+      {
+       "w": "mamá",
+       "n": 5,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dejar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "jugar",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "papá",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "parque",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "amigo",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comprar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "regalo",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "sacar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "araña",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "carita",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "compra",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "dedo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "encerrado",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "encontrar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "estudiar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "grandota",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "helado",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "llevar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "llorar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "regañar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "trabajo",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tumbar",
+       "n": 1,
+       "pos": "VERB"
+      }
+     ]
+    },
+    "enojo": {
+     "n": 27,
+     "sin_respuesta": 3,
+     "pct_sin_respuesta": 11.1,
+     "palabras_promedio": 5.79,
+     "palabras": [
+      {
+       "w": "pegar",
+       "n": 4,
+       "pos": "VERB"
+      },
+      {
+       "w": "bravo",
+       "n": 3,
+       "pos": "ADJ"
+      },
+      {
+       "w": "hacer",
+       "n": 3,
+       "pos": "VERB"
+      },
+      {
+       "w": "decir",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "jugar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "mamá",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prestar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "regañar",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "apagar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "caer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "chino",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "comer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "comprar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "invitar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "juguete",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "lado",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "llevar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "luz",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "molestar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "ponque",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "portar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "profesora",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prometer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "querer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "sacar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "salir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "tarea",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "tope",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "traer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "util",
+       "n": 1,
+       "pos": "NOUN"
+      }
+     ]
+    },
+    "miedo": {
+     "n": 27,
+     "sin_respuesta": 3,
+     "pct_sin_respuesta": 11.1,
+     "palabras_promedio": 4.33,
+     "palabras": [
+      {
+       "w": "monstruo",
+       "n": 4,
+       "pos": "NOUN"
+      },
+      {
+       "w": "araña",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "asustado",
+       "n": 3,
+       "pos": "ADJ"
+      },
+      {
+       "w": "noche",
+       "n": 3,
+       "pos": "NOUN"
+      },
+      {
+       "w": "aparecer",
+       "n": 2,
+       "pos": "VERB"
+      },
+      {
+       "w": "oscuridad",
+       "n": 2,
+       "pos": "NOUN"
+      },
+      {
+       "w": "oscuro",
+       "n": 2,
+       "pos": "ADJ"
+      },
+      {
+       "w": "afuera",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "dejar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "diabolico",
+       "n": 1,
+       "pos": "ADJ"
+      },
+      {
+       "w": "escucha",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "gato",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "hacer",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "llorar",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "luz",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "muñeco",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "papá",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "perro",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "pieza",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "prender",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "sonido",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "trueno",
+       "n": 1,
+       "pos": "NOUN"
+      },
+      {
+       "w": "venir",
+       "n": 1,
+       "pos": "VERB"
+      },
+      {
+       "w": "zombi",
+       "n": 1,
+       "pos": "NOUN"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "como_me_siento_2025": [
+  {
+   "registro": 1,
+   "n": 25,
+   "conteo": {
+    "bien": 19,
+    "alegria": 5,
+    "sin_respuesta": 1
+   },
+   "emociones_distintas": 1,
+   "pct_nombra_emocion": 20.0
+  },
+  {
+   "registro": 2,
+   "n": 24,
+   "conteo": {
+    "miedo": 5,
+    "bien": 4,
+    "calma": 4,
+    "carino": 3,
+    "alegria": 3,
+    "otro": 2,
+    "tristeza": 2,
+    "sin_respuesta": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 70.8
+  },
+  {
+   "registro": 3,
+   "n": 25,
+   "conteo": {
+    "bien": 6,
+    "alegria": 5,
+    "calma": 3,
+    "carino": 3,
+    "tristeza": 3,
+    "otro": 3,
+    "enojo": 1,
+    "miedo": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 64.0
+  },
+  {
+   "registro": 4,
+   "n": 25,
+   "conteo": {
+    "carino": 9,
+    "alegria": 8,
+    "calma": 6,
+    "enojo": 1,
+    "miedo": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 100.0
+  },
+  {
+   "registro": 5,
+   "n": 19,
+   "conteo": {
+    "alegria": 8,
+    "carino": 6,
+    "calma": 2,
+    "sorpresa": 1,
+    "asco": 1,
+    "tristeza": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 100.0
+  },
+  {
+   "registro": 6,
+   "n": 25,
+   "conteo": {
+    "carino": 11,
+    "alegria": 5,
+    "miedo": 3,
+    "tristeza": 2,
+    "calma": 2,
+    "sorpresa": 1,
+    "otro": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 96.0
+  },
+  {
+   "registro": 7,
+   "n": 23,
+   "conteo": {
+    "alegria": 10,
+    "carino": 5,
+    "calma": 3,
+    "sorpresa": 2,
+    "miedo": 2,
+    "tristeza": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 100.0
+  },
+  {
+   "registro": 8,
+   "n": 23,
+   "conteo": {
+    "alegria": 7,
+    "sorpresa": 6,
+    "carino": 5,
+    "bien": 1,
+    "miedo": 1,
+    "asco": 1,
+    "enojo": 1,
+    "tristeza": 1
+   },
+   "emociones_distintas": 7,
+   "pct_nombra_emocion": 95.7
+  },
+  {
+   "registro": 9,
+   "n": 26,
+   "conteo": {
+    "alegria": 13,
+    "carino": 7,
+    "calma": 2,
+    "tristeza": 2,
+    "asco": 1,
+    "enojo": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 100.0
+  },
+  {
+   "registro": 10,
+   "n": 22,
+   "conteo": {
+    "alegria": 7,
+    "carino": 5,
+    "bien": 3,
+    "sorpresa": 2,
+    "otro": 1,
+    "enojo": 1,
+    "asco": 1,
+    "tristeza": 1,
+    "calma": 1
+   },
+   "emociones_distintas": 7,
+   "pct_nombra_emocion": 81.8
+  },
+  {
+   "registro": 11,
+   "n": 23,
+   "conteo": {
+    "alegria": 12,
+    "bien": 3,
+    "sorpresa": 2,
+    "carino": 2,
+    "otro": 2,
+    "tristeza": 1,
+    "calma": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 78.3
+  },
+  {
+   "registro": 12,
+   "n": 23,
+   "conteo": {
+    "alegria": 10,
+    "sorpresa": 5,
+    "bien": 4,
+    "otro": 3,
+    "carino": 1
+   },
+   "emociones_distintas": 3,
+   "pct_nombra_emocion": 69.6
+  },
+  {
+   "registro": 13,
+   "n": 22,
+   "conteo": {
+    "alegria": 15,
+    "carino": 3,
+    "calma": 1,
+    "tristeza": 1,
+    "bien": 1,
+    "sorpresa": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 95.5
+  },
+  {
+   "registro": 14,
+   "n": 21,
+   "conteo": {
+    "alegria": 9,
+    "tristeza": 5,
+    "sorpresa": 3,
+    "carino": 2,
+    "enojo": 1,
+    "bien": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 95.2
+  },
+  {
+   "registro": 15,
+   "n": 20,
+   "conteo": {
+    "alegria": 12,
+    "carino": 2,
+    "tristeza": 2,
+    "otro": 1,
+    "bien": 1,
+    "enojo": 1,
+    "asco": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 90.0
+  },
+  {
+   "registro": 16,
+   "n": 20,
+   "conteo": {
+    "alegria": 14,
+    "carino": 3,
+    "asco": 1,
+    "calma": 1,
+    "sorpresa": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 100.0
+  },
+  {
+   "registro": 17,
+   "n": 22,
+   "conteo": {
+    "alegria": 17,
+    "sorpresa": 2,
+    "carino": 1,
+    "tristeza": 1,
+    "bien": 1
+   },
+   "emociones_distintas": 4,
+   "pct_nombra_emocion": 95.5
+  },
+  {
+   "registro": 18,
+   "n": 23,
+   "conteo": {
+    "alegria": 10,
+    "sorpresa": 4,
+    "bien": 3,
+    "carino": 2,
+    "otro": 2,
+    "enojo": 1,
+    "tristeza": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 78.3
+  },
+  {
+   "registro": 19,
+   "n": 24,
+   "conteo": {
+    "alegria": 11,
+    "tristeza": 6,
+    "bien": 2,
+    "miedo": 2,
+    "carino": 1,
+    "sorpresa": 1,
+    "enojo": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 91.7
+  },
+  {
+   "registro": 20,
+   "n": 23,
+   "conteo": {
+    "alegria": 13,
+    "tristeza": 4,
+    "asco": 2,
+    "bien": 2,
+    "miedo": 1,
+    "sorpresa": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 91.3
+  },
+  {
+   "registro": 21,
+   "n": 25,
+   "conteo": {
+    "alegria": 9,
+    "carino": 3,
+    "miedo": 3,
+    "sorpresa": 3,
+    "tristeza": 2,
+    "otro": 1,
+    "bien": 1,
+    "asco": 1,
+    "enojo": 1,
+    "calma": 1
+   },
+   "emociones_distintas": 8,
+   "pct_nombra_emocion": 92.0
+  },
+  {
+   "registro": 22,
+   "n": 21,
+   "conteo": {
+    "alegria": 15,
+    "sorpresa": 3,
+    "otro": 1,
+    "tristeza": 1,
+    "bien": 1
+   },
+   "emociones_distintas": 3,
+   "pct_nombra_emocion": 90.5
+  },
+  {
+   "registro": 23,
+   "n": 25,
+   "conteo": {
+    "alegria": 19,
+    "otro": 3,
+    "asco": 1,
+    "calma": 1,
+    "sorpresa": 1
+   },
+   "emociones_distintas": 4,
+   "pct_nombra_emocion": 88.0
+  },
+  {
+   "registro": 24,
+   "n": 22,
+   "conteo": {
+    "alegria": 11,
+    "tristeza": 4,
+    "sorpresa": 3,
+    "miedo": 1,
+    "enojo": 1,
+    "carino": 1,
+    "otro": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 95.5
+  },
+  {
+   "registro": 25,
+   "n": 23,
+   "conteo": {
+    "alegria": 13,
+    "sorpresa": 3,
+    "tristeza": 2,
+    "calma": 2,
+    "miedo": 1,
+    "enojo": 1,
+    "otro": 1
+   },
+   "emociones_distintas": 6,
+   "pct_nombra_emocion": 95.7
+  },
+  {
+   "registro": 26,
+   "n": 24,
+   "conteo": {
+    "alegria": 13,
+    "sorpresa": 4,
+    "calma": 2,
+    "asco": 2,
+    "otro": 1,
+    "bien": 1,
+    "tristeza": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 91.7
+  },
+  {
+   "registro": 27,
+   "n": 23,
+   "conteo": {
+    "alegria": 14,
+    "sorpresa": 4,
+    "tristeza": 2,
+    "enojo": 2,
+    "otro": 1
+   },
+   "emociones_distintas": 4,
+   "pct_nombra_emocion": 95.7
+  },
+  {
+   "registro": 29,
+   "n": 24,
+   "conteo": {
+    "alegria": 16,
+    "enojo": 3,
+    "tristeza": 2,
+    "sorpresa": 2,
+    "miedo": 1
+   },
+   "emociones_distintas": 5,
+   "pct_nombra_emocion": 100.0
+  }
+ ],
+ "situaciones_2025": {
+  "situaciones": [
+   "Mi mamá me regaña.",
+   "Me despierto en la oscuridad",
+   "Rompo mis juguetes.",
+   "Juego en el parque",
+   "Mi mamá me da un abrazo.",
+   "Discuto con mis compañeros.",
+   "Veo una araña.",
+   "Nadie quiere jugar conmigo."
+  ],
+  "emociones": [
+   "alegria",
+   "tristeza",
+   "enojo",
+   "miedo",
+   "sin_respuesta"
+  ],
+  "conteo": [
+   [
+    3,
+    20,
+    3,
+    2,
+    1
+   ],
+   [
+    6,
+    2,
+    0,
+    19,
+    2
+   ],
+   [
+    0,
+    19,
+    5,
+    4,
+    1
+   ],
+   [
+    19,
+    4,
+    3,
+    1,
+    2
+   ],
+   [
+    24,
+    1,
+    0,
+    3,
+    1
+   ],
+   [
+    3,
+    4,
+    17,
+    2,
+    3
+   ],
+   [
+    6,
+    2,
+    2,
+    14,
+    5
+   ],
+   [
+    0,
+    19,
+    0,
+    4,
+    6
+   ]
+  ]
+ }
+}
